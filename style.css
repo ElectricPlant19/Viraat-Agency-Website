@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: static;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  background-color: #c36a2d;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.logo {
+  padding-left: 1rem;
+  border: border-box;
+}
+
+.logo > h1 {
+  font-weight: bolder;
+}
+
+.logo h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu a:hover {
+  color: #f79757;
+}
+
+.color {
+  color: #c36a2d;
+}
+
+.product-head {
+  display: block;
+  text-align: center;
+  height: 100px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-diplay {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bg-color {
+  background-color: #c36a2d;
+}
+
+footer p {
+  color: black;
+  font-weight: bold;
+}
+
+footer ul li a {
+  color: black;
+  font-weight: bold;
+}
+
+.footer-section {
+  background-color: #c36a2d;
+}
+
+.btn {
+  color: #c36a2d;
+  background-color: #fff; /* Adjust background color if needed */
+  /* You can also modify other button styles as needed */
+}
+
+/* Change color of headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #c36a2d;
+}
+
+/* Change color of links */
+a {
+  color: #c36a2d;
+}
+
+/* Change color of specific class */
+.color {
+  color: #c36a2d;
+}
